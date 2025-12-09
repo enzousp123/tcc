@@ -4,95 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Enzo Oliveira Fernandes">
-    <meta name="description" content="TCC de Enzo Oliveira Fernandes sobre o projeto ForestEyes e sua expansão através da gamificação.">
-    <title>ForestEyes: Estudo e Expansão Através da Gamificação no Monitoramento de Desmatamento</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="TCC de Enzo Oliveira Fernandes: Expandindo o ForestEyes através de Jogo Digital e Ciência Cidadã.">
+    <title>Expandindo o ForestEyes: Proposta de um Jogo Digital</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
             color: #333;
+            line-height: 1.6;
         }
         header {
-            background-color: #006400;
+            background-color: #006400; /* Verde escuro ForestEyes */
             color: white;
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
+        }
+        header h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        header h2 {
+            font-size: 1.2em;
+            font-weight: normal;
+            margin-top: 0;
+            color: #e0e0e0;
+        }
+        .header-info {
+            margin-top: 20px;
+            font-size: 0.95em;
         }
         main {
-            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px 20px;
         }
-        h1, h2 {
-            font-size: 2em;
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        p {
-            font-size: 1.2em;
-            line-height: 1.5;
+        h2 {
+            color: #006400;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
         }
-        .contact-info {
-            background-color: #e9e9e9;
-            padding: 15px;
-            border-radius: 5px;
+        a {
+            color: #006400;
+            text-decoration: none;
+            font-weight: bold;
         }
-        .project-link, .project-tcc {
-            background-color: #e9e9e9;
-            padding: 15px;
-            border-radius: 5px;
-            margin-top: 20px;
+        a:hover {
+            text-decoration: underline;
         }
-        footer {
+        .download-btn {
+            display: inline-block;
             background-color: #006400;
             color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #004d00;
+            text-decoration: none;
+        }
+        .secondary-btn {
+            background-color: #555;
+        }
+        .secondary-btn:hover {
+            background-color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: #ccc;
             text-align: center;
-            padding: 10px;
-            margin-top: 20px;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>ForestEyes: Estudo e Expansão Através da Gamificação no Monitoramento de Desmatamento</h1>
-    <h2>TCC de Enzo Oliveira Fernandes</h2>
-    <p>Instituto de Matemática e Estatística - USP</p>
-    <p>Orientador: Prof. Alfredo Goldman</p>
+    <h1>Expandindo o ForestEyes: Proposta de um Jogo Digital para Ampliar o Engajamento no Monitoramento do Desmatamento via Ciência Cidadã</h1>
+    <h2>Trabalho de Conclusão de Curso (BCC)</h2>
+    
+    <div class="header-info">
+        <p><strong>Aluno:</strong> Enzo Oliveira Fernandes</p>
+        <p><strong>Orientador:</strong> Prof. Dr. Alfredo Goldman Vel Lejbman</p>
+        <p><strong>Co-orientadores:</strong> Álvaro Luiz Fazenda, Vanessa Andrade Pereira, Fábio A. M. Cappa-bianco (UNIFESP)</p>
+        <p>Instituto de Matemática e Estatística - Universidade de São Paulo</p>
+    </div>
 </header>
 
 <main>
     <section>
+        <h2>Documentos do Trabalho</h2>
+        <p>Abaixo encontram-se os arquivos finais para download:</p>
+        
+        <a href="monografia.pdf" class="download-btn" target="_blank">📄 Baixar Monografia Completa (PDF)</a>
+        
+        <a href="posterfinal.pdf" class="download-btn secondary-btn" target="_blank">🖼️ Baixar Pôster (PDF)</a>
+    </section>
+
+    <section>
         <h2>Resumo</h2>
         <p>
-            Este trabalho tem como objetivo estudar e expandir o projeto ForestEyes, que utiliza ciência cidadã para monitorar desmatamento em florestas tropicais. O projeto busca envolver cidadãos no processo de classificação de imagens de sensoriamento remoto para identificar áreas de desmatamento. Através da implementação de gamificação, este projeto visa aumentar a participação e o engajamento dos usuários, principalmente entre os jovens, tornando o processo mais acessível e divertido. Este trabalho também explorará a criação de um protótipo de jogo digital, integrando ciência cidadã e aprendizado de máquina para aprimorar a detecção de áreas desmatadas.
+            O desmatamento das florestas tropicais compromete a biodiversidade, a regulação climática e o equilíbrio hidrológico. Entre agosto/2018 e julho/2019, o programa PRODES registrou 10.129 km² de desmatamento na Amazônia Legal – um aumento de 34% em relação ao período anterior. Embora a disponibilidade de imagens de satélite tenha crescido, o volume de dados e a escassez de especialistas atrasam a geração de alertas. A ciência cidadã surge como alternativa para engajar voluntários na análise de imagens de sensoriamento remoto, produzindo conjuntos de dados que alimentam algoritmos de detecção automática.
+        </p>
+        <p>
+            O projeto ForestEyes explora essa abordagem: voluntários classificam segmentos de imagens orbitais como “floresta”, “não-floresta” ou “indefinido”. As classificações, comparadas a dados de referência do PRODES, mostraram que os voluntários alcançam boa acurácia. Este trabalho propõe a expansão do ForestEyes através de um projeto de jogo digital (<i>game design</i>), visando aumentar o engajamento dos participantes e aprimorar a qualidade das classificações. A proposta é fundamentada em uma Revisão Sistemática da Literatura (RSL) sobre gamificação em ciência cidadã. A presente monografia descreve a análise do sistema atual, os resultados da RSL, o desenho de jogo proposto (com mecânicas de pontos, níveis, missões e narrativa) e uma arquitetura de software que se integra ao backend científico existente do ForestEyes.
         </p>
     </section>
 
-    <section class="contact-info">
-        <h2>Informações de Contato</h2>
+    <section>
+        <h2>O Projeto ForestEyes</h2>
+        <p>
+            O ForestEyes é uma iniciativa de ciência cidadã hospedada na plataforma Zooniverse. Você pode acessar a versão atual do projeto e contribuir com a classificação de imagens através do link abaixo:
+        </p>
+        <p>
+            <a href="https://www.zooniverse.org/projects/dallaqua/foresteyes?language=pt" target="_blank">🔗 Acessar ForestEyes no Zooniverse</a>
+        </p>
+    </section>
+
+    <section>
+        <h2>Contato</h2>
         <p><strong>Email:</strong> <a href="mailto:enzofernandes@usp.br">enzofernandes@usp.br</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/enzousp123/tcc" target="_blank">github.com/enzousp123/tcc</a></p>
+        <p><strong>Código e Materiais:</strong> <a href="https://github.com/enzousp123/tcc" target="_blank">Repositório no GitHub</a></p>
     </section>
 
-    <section class="project-link">
-        <h2>Link para o Projeto ForestEyes</h2>
-        <p>
-            O projeto ForestEyes é uma iniciativa de ciência cidadã para monitoramento de desmatamento em florestas tropicais. Voluntários podem classificar imagens de sensoriamento remoto para ajudar a detectar áreas de desmatamento. Acesse o projeto através do link abaixo:
-        </p>
-        <p><a href="https://www.zooniverse.org/projects/dallaqua/foresteyes?language=pt" target="_blank">Acesse o projeto ForestEyes</a></p>
-    </section>
-
-    <section class="project-tcc">
-        <h2>Projeto do TCC</h2>
-        <p>
-            O projeto do TCC está disponível em formato PDF para mais detalhes sobre a pesquisa e os objetivos. Clique no link abaixo para acessar o arquivo:
-        </p>
-        <p><a href="propostatcc.pdf" target="_blank">Baixe o Projeto do TCC (PDF)</a></p>
-    </section>
 </main>
 
 <footer>
-    <p>Enzo Oliveira Fernandes | Instituto de Matemática e Estatística - USP</p>
+    <p>Enzo Oliveira Fernandes | BCC - IME USP | 2025</p>
 </footer>
 
 </body>
